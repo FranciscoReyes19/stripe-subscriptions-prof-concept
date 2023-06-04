@@ -1,0 +1,51 @@
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.checkout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 400px;
+
+}
+
+.checkout-form {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  input {
+    height: 40px;
+    border-radius: 10px;
+  }
+
+  select {
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  button {
+    height: 50px;
+    background-color: rgba(27, 27, 128, 0.97);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+}
