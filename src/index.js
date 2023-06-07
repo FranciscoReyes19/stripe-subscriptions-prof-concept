@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
 import reportWebVitals from './reportWebVitals';
-import SubscriptionForm from "./pages/checkout/SubscriptionForm";
+import CheckoutForm from "./pages/checkout/CheckoutForm";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SubscriptionForm />
+    <CheckoutForm />
   </React.StrictMode>
 );
 
