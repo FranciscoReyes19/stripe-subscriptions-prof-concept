@@ -1,5 +1,5 @@
 export const createSubscription = async (data) => {
-    const response = await fetch("http://localhost:3000/create-subscription", {
+    const response = await fetch("http://localhost:3001/create-subscription", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",

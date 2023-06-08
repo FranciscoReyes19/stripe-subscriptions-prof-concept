@@ -16,8 +16,8 @@ const ProductDisplay = () => (
                 <h5>$20.00</h5>
             </div>
         </div>
-        {/* http://localhost:3000 -> BACKEND DOMAIN */}
-        <form action="http://localhost:3000/create-checkout-session" method="POST" >
+        {/* http://localhost:3001 -> BACKEND DOMAIN */}
+        <form action="http://localhost:3001/create-checkout-session" method="POST" >
             <button type="submit">
                 Checkout
             </button>
